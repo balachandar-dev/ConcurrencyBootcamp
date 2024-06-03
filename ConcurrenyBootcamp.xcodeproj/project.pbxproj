@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C98EEB52C0C8EE200132C7C /* CustomQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C98EEB42C0C8EE200132C7C /* CustomQueue.swift */; };
 		2C9BDDCA2C0AC53800F1A560 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9BDDC92C0AC53800F1A560 /* AppDelegate.swift */; };
 		2C9BDDCC2C0AC53800F1A560 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9BDDCB2C0AC53800F1A560 /* SceneDelegate.swift */; };
 		2C9BDDCE2C0AC53800F1A560 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9BDDCD2C0AC53800F1A560 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C98EEB42C0C8EE200132C7C /* CustomQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomQueue.swift; sourceTree = "<group>"; };
 		2C9BDDC62C0AC53800F1A560 /* ConcurrenyBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcurrenyBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C9BDDC92C0AC53800F1A560 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C9BDDCB2C0AC53800F1A560 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 			children = (
 				2C9BDE002C0ADCBD00F1A560 /* GCDBasics.swift */,
 				2C9BDE0E2C0AF17E00F1A560 /* QualityOfService.swift */,
+				2C98EEB42C0C8EE200132C7C /* CustomQueue.swift */,
 			);
 			path = GCD;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				2C9BDE012C0ADCBD00F1A560 /* GCDBasics.swift in Sources */,
 				2C9BDDD42C0AC53800F1A560 /* ConcurrenyBootcamp.xcdatamodeld in Sources */,
 				2C9BDE0F2C0AF17E00F1A560 /* QualityOfService.swift in Sources */,
+				2C98EEB52C0C8EE200132C7C /* CustomQueue.swift in Sources */,
 				2C9BDDCE2C0AC53800F1A560 /* ViewController.swift in Sources */,
 				2C9BDDCA2C0AC53800F1A560 /* AppDelegate.swift in Sources */,
 				2C9BDDCC2C0AC53800F1A560 /* SceneDelegate.swift in Sources */,
