@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2C98EEB52C0C8EE200132C7C /* CustomQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C98EEB42C0C8EE200132C7C /* CustomQueue.swift */; };
 		2C98EEBA2C0D9B6F00132C7C /* Barrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C98EEB92C0D9B6F00132C7C /* Barrier.swift */; };
+		2C98EF1C2C0F463B00132C7C /* ActorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C98EF1B2C0F463A00132C7C /* ActorViewController.swift */; };
+		2C98EF242C0F467F00132C7C /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C98EF232C0F467F00132C7C /* Flight.swift */; };
 		2C9BDDCA2C0AC53800F1A560 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9BDDC92C0AC53800F1A560 /* AppDelegate.swift */; };
 		2C9BDDCC2C0AC53800F1A560 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9BDDCB2C0AC53800F1A560 /* SceneDelegate.swift */; };
 		2C9BDDCE2C0AC53800F1A560 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9BDDCD2C0AC53800F1A560 /* ViewController.swift */; };
@@ -42,6 +44,8 @@
 /* Begin PBXFileReference section */
 		2C98EEB42C0C8EE200132C7C /* CustomQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomQueue.swift; sourceTree = "<group>"; };
 		2C98EEB92C0D9B6F00132C7C /* Barrier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barrier.swift; sourceTree = "<group>"; };
+		2C98EF1B2C0F463A00132C7C /* ActorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorViewController.swift; sourceTree = "<group>"; };
+		2C98EF232C0F467F00132C7C /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
 		2C9BDDC62C0AC53800F1A560 /* ConcurrenyBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcurrenyBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C9BDDC92C0AC53800F1A560 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C9BDDCB2C0AC53800F1A560 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +90,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C98EEBE2C0EBBFB00132C7C /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
+		2C98EF1A2C0F461000132C7C /* Actor */ = {
+			isa = PBXGroup;
+			children = (
+				2C98EF1B2C0F463A00132C7C /* ActorViewController.swift */,
+				2C98EF232C0F467F00132C7C /* Flight.swift */,
+			);
+			path = Actor;
+			sourceTree = "<group>";
+		};
 		2C9BDDBD2C0AC53800F1A560 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +129,8 @@
 		2C9BDDC82C0AC53800F1A560 /* ConcurrenyBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				2C98EF1A2C0F461000132C7C /* Actor */,
+				2C98EEBE2C0EBBFB00132C7C /* GraphQL */,
 				2C9BDDFF2C0ADC9100F1A560 /* GCD */,
 				2C9BDDC92C0AC53800F1A560 /* AppDelegate.swift */,
 				2C9BDDCB2C0AC53800F1A560 /* SceneDelegate.swift */,
@@ -284,6 +306,8 @@
 				2C9BDE012C0ADCBD00F1A560 /* GCDBasics.swift in Sources */,
 				2C9BDDD42C0AC53800F1A560 /* ConcurrenyBootcamp.xcdatamodeld in Sources */,
 				2C9BDE0F2C0AF17E00F1A560 /* QualityOfService.swift in Sources */,
+				2C98EF242C0F467F00132C7C /* Flight.swift in Sources */,
+				2C98EF1C2C0F463B00132C7C /* ActorViewController.swift in Sources */,
 				2C98EEB52C0C8EE200132C7C /* CustomQueue.swift in Sources */,
 				2C9BDDCE2C0AC53800F1A560 /* ViewController.swift in Sources */,
 				2C9BDDCA2C0AC53800F1A560 /* AppDelegate.swift in Sources */,
@@ -467,6 +491,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 928S455T9D;
 				INFOPLIST_FILE = ConcurrenyBootcamp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,6 +511,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 928S455T9D;
 				INFOPLIST_FILE = ConcurrenyBootcamp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
