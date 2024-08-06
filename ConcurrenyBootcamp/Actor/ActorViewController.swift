@@ -7,7 +7,7 @@
 
 import UIKit
 
-actor ActorViewController: UIViewController {
+class ActorViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,17 +17,17 @@ actor ActorViewController: UIViewController {
         let flight = Flight()
         
         queue1.async {
-            Task {
-                let bookedSeat = await flight.bookSeat()
+//            Task {
+                let bookedSeat = flight.bookSeat()
                 print("booked seat\(bookedSeat)")
-            }
+//            }
         }
         
         queue2.async {
-            Task {
+//            Task {
                 let availableSeats = flight.availableSeats
                 print("available seats\(availableSeats)")
-            }
+//            }
         }
         // Do any additional setup after loading the view.
     }
